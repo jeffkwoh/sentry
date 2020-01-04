@@ -22,6 +22,9 @@ type Props = {
   field: Field;
   highlighted?: boolean;
   disabled?: boolean;
+  flexibleControlStateSize?: boolean;
+  stacked?: boolean;
+  inline?: boolean;
 
   // TODO(ts): Investigate further
   access?: any;
